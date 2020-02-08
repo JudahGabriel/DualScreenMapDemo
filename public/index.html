@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mapp App</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yff7gak.css" />
+    <link rel="stylesheet" href="/stylesheets/app.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="products">
+        <nav class="nav">
+          <div class="avatar"></div>
+
+          <button class="menu">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 12H21"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 6H21"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 18H21"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </nav>
+
+        <div class="options">
+          <button class="btn-option">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21 21L16.65 16.65"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+
+          <div class="options-right-align">
+            <button class="btn-option">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 3H2L10 12.46V19L14 21V12.46L22 3Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="products-list-outer">
+          <ul class="products-list-inner"></ul>
+        </div>
+        <div class="product-pagination">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#" class="selected"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="map">
+        <div class="my-location-pin"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>
