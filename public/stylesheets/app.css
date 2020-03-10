@@ -423,3 +423,11 @@
       border-radius: 10px;
     }
   }
+
+  @media (spanning: single-fold-vertical) {
+    .products {
+      padding: 15px;
+      flex: 0 0 calc(env(fold-left) - 25px);
+      margin-right: calc(env(fold-width) +  15px);
+    }
+  }
