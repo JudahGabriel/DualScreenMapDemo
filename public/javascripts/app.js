@@ -124,7 +124,6 @@ const products = [
     });
 
     productPin.addEventListener('pointerenter', ()=>{
-      console.log('ss')
       productPopper.style.opacity =  1;
     })
     productPin.addEventListener('pointerleave', () => {
@@ -141,3 +140,11 @@ const products = [
       btn.addEventListener("click", () => btn.classList.toggle("liked"));
     }
   );
+
+  // Use the spanning polyfill to simulate dual screens.
+  const config = window["__foldables_env_vars__"];
+  config.update({
+    spanning: "single-fold-vertical",
+    foldSize: 30,
+    browserShellSize: 20
+  });
