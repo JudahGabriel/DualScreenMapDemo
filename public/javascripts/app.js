@@ -124,7 +124,6 @@ const products = [
     });
 
     productPin.addEventListener('pointerenter', ()=>{
-      console.log('ss')
       productPopper.style.opacity =  1;
     })
     productPin.addEventListener('pointerleave', () => {
