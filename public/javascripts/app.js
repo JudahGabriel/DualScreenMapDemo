@@ -145,6 +145,6 @@ const products = [
   const config = window["__foldables_env_vars__"];
   config.update({
     spanning: "single-fold-vertical",
-    foldSize: 30,
+    foldSize: 5,
     browserShellSize: 20
   });
