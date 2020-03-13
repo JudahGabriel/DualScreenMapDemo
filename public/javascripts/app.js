@@ -141,13 +141,3 @@ const products = [
       btn.addEventListener("click", () => btn.classList.toggle("liked"));
     }
   );
-
-  window.addEventListener("beforeunload", event => {
-    if (event.dialog) {
-      event.dialog.setMessage("You have unsaved stuff!");
-      event.dialog.setButtonLabel("Save the stuff");
-      event.dialog.show().then(async (result) => {
-        // save the stuff
-      })
-    }
-  });
