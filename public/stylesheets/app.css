@@ -85,6 +85,12 @@
     background-position: center;
   }
 
+  pwa-install {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
   .menu {
     margin-left: auto;
     background: none;
