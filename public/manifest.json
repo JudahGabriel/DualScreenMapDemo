@@ -1,23 +1,18 @@
 {
-	"dir" : "ltr",
 	"lang" : "en",
-	"name" : "Mapp App",
+	"name" : "Mappslist",
 	"scope" : "/",
 	"display" : "standalone",
 	"start_url" : "/",
-	"short_name" : "Mapp App",
+	"short_name" : "Mappslist",
 	"theme_color" : "#4c88d6",
 	"description" : "",
 	"orientation" : "any",
 	"background_color" : "#4c88d6",
-	"related_applications" : [],
-	"prefer_related_applications" : false,
 	"icons" : [
 		{
 			"src": "/images/map-512.png",
 			"sizes": "512x512"
 		}],
-	"url" : "https://pwamvpsummit2020.azurewebsites.net",
-	"screenshots" : [],
-	"generated" : ""
+	"url" : "https://mappslist.azurewebsites.net"
 }
