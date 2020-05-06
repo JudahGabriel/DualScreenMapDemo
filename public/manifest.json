@@ -5,10 +5,10 @@
 	"display" : "standalone",
 	"start_url" : "/",
 	"short_name" : "Mappslist",
-	"theme_color" : "#4c88d6",
-	"description" : "",
-	"orientation" : "any",
 	"background_color" : "#4c88d6",
+	"theme_color" : "#4c88d6",
+	"description" : "Listing items for sale near you",
+	"orientation" : "any",
 	"icons" : [
 		{
 			"src": "/images/map-512.png",
