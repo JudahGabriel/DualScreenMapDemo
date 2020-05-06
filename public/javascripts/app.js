@@ -9,7 +9,8 @@ const products = [
         left: "0px"
       },
       category: 'Art',
-      description: 'Original art piece by <strong>Pablo Picasso</strong> from the 20th century' 
+      description: 'Original art piece by <strong>Pablo Picasso</strong> from the 20th century',
+      url: "https://mappslist.azurewebsites.net/#/products/1"
     },
     {
       name: "Grand Piano",
@@ -21,7 +22,8 @@ const products = [
         left: "80%"
       },
       category: 'Music & Entertainment',
-      description: 'This Model A piano offers “grand” sound in a medium-scale instrument'
+      description: 'This Model A piano offers “grand” sound in a medium-scale instrument',
+      url: "https://mappslist.azurewebsites.net/#/products/2"
     },
     {
       name: "Ping Pong Table",
@@ -33,7 +35,8 @@ const products = [
         left: "210px"
       },
       category: 'Sports & Fitness',
-      description: 'All weather blue ping pong table for indoor and outdoor use'
+      description: 'All weather blue ping pong table for indoor and outdoor use',
+      url: "https://mappslist.azurewebsites.net/#/products/3"
     },
     {
       name: "Tufted Couch",
@@ -45,7 +48,8 @@ const products = [
         left: "520px"
       },
       category: 'Furniture',
-      description: 'Handsome tufted sofa that is as comfortable as it is eye-catching'
+      description: 'Handsome tufted sofa that is as comfortable as it is eye-catching',
+      url: "https://mappslist.azurewebsites.net/#/products/4"
     }
   ];
 
@@ -145,5 +149,7 @@ const products = [
   );
 
   function shareClicked(productIndex) {
-    console.log("share clicked", productIndex);
+    var product = products[productIndex];
+    console.log("you're sharing", product);
   }
+
