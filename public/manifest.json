@@ -2,7 +2,7 @@
 	"lang" : "en",
 	"name" : "Mappslist",
 	"scope" : "/",
-	"display" : "standalone",
+	"display" : "minimal-ui",
 	"start_url" : "/",
 	"short_name" : "Mappslist",
 	"background_color" : "#4c88d6",
