@@ -152,4 +152,3 @@ const products = [
     var product = products[productIndex];
     console.log("you're sharing", product);
   }
-
