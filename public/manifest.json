@@ -9,7 +9,7 @@
 	"theme_color" : "#4c88d6",
 	"description" : "Listing items for sale near you",
 	"orientation" : "any",
-	"icons" : [
+	"icons": [
 		{
 			"src": "/images/map-44.png",
 			"sizes": "44x44"
