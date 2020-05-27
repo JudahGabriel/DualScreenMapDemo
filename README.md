@@ -1,1 +1,1 @@
-# DualScreenMapDemo
+# Map Demo
